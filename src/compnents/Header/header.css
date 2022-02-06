@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: #ffffff;
+}
+.header__img {
+  width: 31px;
+  height: 31px;
+  margin-right: 20px;
+}
+.header__img img {
+  width: 100%;
+}
+.header h2 {
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+}
+.header h4 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+}

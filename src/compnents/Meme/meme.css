@@ -1,0 +1,32 @@
+.form {
+  padding: 36px;
+  display: grid;
+  grid-template: 40px 40px/230px 230px;
+  grid-template-areas: "input-top  input-bottom" "button button";
+  justify-content: space-between;
+}
+.form__input:first-child {
+  grid-area: input-top;
+}
+.form__input {
+  text-indent: 5px;
+}
+.form__input:nth-child(2) {
+  grid-area: input-bottom;
+}
+.form__button {
+  grid-area: button;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  color: #ffffff;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
